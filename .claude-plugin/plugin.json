@@ -1,0 +1,26 @@
+{
+  "name": "matilha-growth-pack",
+  "version": "0.1.0",
+  "description": "Matilha companion pack — 20 growth and product-strategy skills synthesized from AARRR, JTBD, positioning, and behavioral-economics research. You lead. Agents hunt.",
+  "author": {
+    "name": "Danilo de Sousa"
+  },
+  "homepage": "https://github.com/danilods/matilha-growth-pack",
+  "repository": "https://github.com/danilods/matilha-growth-pack",
+  "license": "MIT",
+  "keywords": [
+    "matilha-pack",
+    "growth",
+    "product-strategy",
+    "aarrr",
+    "jtbd",
+    "positioning",
+    "pricing",
+    "retention",
+    "cross-tool",
+    "claude-code",
+    "cursor",
+    "codex",
+    "gemini"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "matilha-growth-pack",
+  "displayName": "Matilha Growth Pack",
+  "description": "20 growth and product-strategy skills for Matilha — AARRR, JTBD, positioning, pricing, retention. Companion pack: works with matilha-skills for full integration.",
+  "author": "Danilo de Sousa",
+  "category": "workflow",
+  "version": "0.1.0",
+  "license": "MIT",
+  "repository": "https://github.com/danilods/matilha-growth-pack"
+}
