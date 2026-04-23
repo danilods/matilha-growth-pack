@@ -1,10 +1,23 @@
 {
+  "$schema": "https://json.schemastore.org/claude-code-plugin-marketplace.json",
   "name": "matilha-growth-pack",
-  "displayName": "Matilha Growth Pack",
-  "description": "20 growth and product-strategy skills for Matilha — AARRR, JTBD, positioning, pricing, retention. Companion pack: works with matilha-skills for full integration.",
-  "author": "Danilo de Sousa",
-  "category": "workflow",
-  "version": "0.1.0",
-  "license": "MIT",
-  "repository": "https://github.com/danilods/matilha-growth-pack"
+  "owner": {
+    "name": "Danilo de Sousa",
+    "email": "danilod2.sousa@gmail.com",
+    "url": "https://github.com/danilods"
+  },
+  "metadata": {
+    "description": "Matilha companion pack — 20 growth + product-strategy skills (AARRR + JTBD + positioning + pricing + retention).",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "matilha-growth-pack",
+      "source": "./",
+      "description": "20 growth + product-strategy skills auto-activated when user intent touches acquisition, activation, retention, revenue, pricing, positioning, or JTBD concerns.",
+      "version": "0.1.0",
+      "category": "growth",
+      "tags": ["matilha-pack", "growth", "product-strategy", "aarrr", "jtbd", "pricing"]
+    }
+  ]
 }
