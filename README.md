@@ -11,11 +11,18 @@ This pack is the second shipped companion pack (after [matilha-ux-pack](https://
 
 ## Install
 
-### Claude Code
+### Claude Code (recommended: user scope)
+
+Install at user scope so the pack is available in every workspace, not just per-project:
 
 ```
-/plugin install matilha-growth-pack
+/plugin marketplace add danilods/matilha-growth-pack
+/plugin install matilha-growth-pack@matilha-growth-pack --user
 ```
+
+(If `--user` is not recognized, use the interactive `/plugin` menu and select **user scope**.)
+
+When [matilha core](https://github.com/danilods/matilha-skills) is also installed, its `matilha-compose` gateway auto-detects this pack via plugin-namespace inspection (`matilha-*-pack`) and injects pack-aware preamble into brainstorming sessions whenever user intent touches growth, activation, retention, pricing, or JTBD concerns. The pack also works standalone — skills activate via their own descriptions when intent matches.
 
 Or locally during development:
 
