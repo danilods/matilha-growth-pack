@@ -8,14 +8,14 @@
   },
   "metadata": {
     "description": "Matilha companion pack — 20 growth + product-strategy skills (AARRR + JTBD + positioning + pricing + retention).",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   "plugins": [
     {
       "name": "matilha-growth-pack",
       "source": "./",
       "description": "20 growth + product-strategy skills auto-activated when user intent touches acquisition, activation, retention, revenue, pricing, positioning, or JTBD concerns.",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "category": "growth",
       "tags": ["matilha-pack", "growth", "product-strategy", "aarrr", "jtbd", "pricing"]
     }
