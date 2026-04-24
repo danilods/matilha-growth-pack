@@ -3,6 +3,8 @@
 > **You lead. Agents hunt.**
 > Matilha companion pack — 20 growth and product-strategy skills.
 
+> 🏠 **This is a companion pack.** The official matilha entry point is [**danilods/matilha-skills**](https://github.com/danilods/matilha-skills) — start there for the full install guide + ecosystem overview. Install this pack only after the core is set up (via `/matilha-install` in Claude Code, or the explicit commands below).
+
 ## What this is
 
 `matilha-growth-pack` extends [Matilha](https://github.com/danilods/matilha-skills) with growth and product-strategy skills. Each skill fires automatically when user intent matches — picking pricing triggers `growth-pricing-psychology` + `growth-value-metric`; designing onboarding triggers `growth-activation-aha-moment`; researching motivation triggers `growth-jtbd-forces`.
