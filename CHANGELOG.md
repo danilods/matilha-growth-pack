@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.3.0] — 2026-04-26 — Wave 5h: deterministic trigger skill
+
+### Added
+
+- **`matilha-growth-trigger` skill** — independent activation surface for growth domain. Keyword-rich description (AARRR, acquisition, activation, retention, referral, churn, funnel, conversion, North Star, viral, k-factor, JTBD, hook model, DAU/MAU, engagement, etc.) ensures pack skills enter the conversation whenever the domain appears in user prompts.
+- Complements `matilha-skills`'s routing table (`skills/matilha-compose/routing-table.md`); together they form Wave 5h's Maximum Deterministic Activation surface.
+
+### Notes
+
+- Fully additive: existing 20 skills untouched. Pack continues to work standalone or with `matilha-skills` (Matilha core).
+- Trigger is a routing surface, not a craft skill — emits a compact domain acknowledgment and hands off to the most relevant pack skill via the Skill tool.
+- No behavior change when pack is uninstalled: trigger emits a `/matilha-install` nudge and yields to default flow.
+
 ## [0.1.0] — 2026-04-19 — Wave 5b: Second shipped Matilha companion pack
 
 ### Added
